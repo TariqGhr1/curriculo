@@ -15,8 +15,16 @@ body {
 #body {
     background-color: var(--cor-principal);
 }
+.funcao {
+    color: var(--cor-branco);
+}
 .lead {
     font-weight: 700;
+    font-size: 30px;
+}
+.habilidades1 {
+    font-size: 25px;
+    color: var(--cor-branco);
 }
 #rodape {
     background-color: var(--cor-preto);
@@ -39,6 +47,7 @@ body {
 }
 .habilidades:hover .badge {
     background-color: var(--cor-branco) !important;
-    transform: scale(1.05);
+    color: var(--cor-preto);
+    transform: scale(1.20);
     transition: 0.3s;
 }
